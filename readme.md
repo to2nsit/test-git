@@ -14,3 +14,5 @@ Currently support Features
 ## Credits
 
 Developed by Pipat W.
+
+Modified: September 1, 2016.
