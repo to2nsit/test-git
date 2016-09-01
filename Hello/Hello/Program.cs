@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 namespace Hello {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Hello, World!");
+            string name;
+
+            Console.Write("Your name: ");
+            name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name.ToUpper()}!");
         }
     }
 }
