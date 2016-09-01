@@ -9,9 +9,13 @@ namespace Hello {
         static void Main(string[] args) {
             string name;
 
+            Console.Write("=====================================");   
+
             Console.Write("Your name: ");
             name = Console.ReadLine();
             Console.WriteLine($"Hello, {name.ToUpper()}!");
+
+            Console.Write("=====================================");
         }
     }
 }
